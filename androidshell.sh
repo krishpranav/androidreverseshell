@@ -104,7 +104,7 @@ then
 	echo ""
 msfconsole -r listener.rc
 else
-	echo -e "\n  $red[$yellow!$red]$white AndroidShell Has Closed..$nc\n"
+	echo -e "\n  $red[$yellow!$red]$white AndroidShell Has Exited..$nc\n"
 fi
 	}
 size
