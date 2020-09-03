@@ -109,7 +109,6 @@ fi
 	}
 size
 readme
-banner
 payload
 cryp
 server
