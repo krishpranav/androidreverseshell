@@ -104,11 +104,10 @@ then
 	echo ""
 msfconsole -r listener.rc
 else
-	echo -e "\n  $red[$yellow!$red]$white Program Closed$nc\n"
+	echo -e "\n  $red[$yellow!$red]$white AndroidShell Has Closed..$nc\n"
 fi
 	}
 size
-readme
 payload
 cryp
 server
