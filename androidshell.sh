@@ -21,8 +21,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 function server() {
 sudo service apache2 start
-whiptail --title "Warning" --msgbox "                            Hello World !!" 8 78
-whiptail --title "Warning" --msgbox "                            Don't Close XTERM " 8 78
+whiptail --title "Warning" --msgbox "                            Starting Xterm !!" 8 78
+whiptail --title "Warning" --msgbox "                            Please dont close the xterm " 8 78
 	sleep 2
 	xterm -T "IP Poisener" -e "ssh -R 80:localhost:80 `echo -n $(date) | md5sum | cut -c1-8`@serveo.net 2> /dev/null > link.log" &
 	sleep 7
